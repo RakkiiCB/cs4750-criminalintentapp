@@ -4,14 +4,12 @@
 
     <application
         android:allowBackup="true"
+        android:name=".CriminalIntentApplication"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CriminalIntent">
-        <activity
-            android:name=".CrimeDetailFragment"
-            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
