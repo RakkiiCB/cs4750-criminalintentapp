@@ -19,6 +19,7 @@ class CrimeRepository private constructor(
             CrimeDatabase::class.java,
             DATABASE_NAME
         )
+        .addMigrations(migration_1_2)
         .build()
 
     fun getCrimes(): Flow<List<Crime>>
